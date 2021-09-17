@@ -19,8 +19,10 @@ Télécharger l'iso de la version d'Ubuntu 20.04 LTS depuis le site officiel d'U
 	Length: 1261371392 (1.2G) [application/x-iso9660-image]
 	Saving to: 'ubuntu-20.04.3-live-server-amd64.iso'
 
-	ubuntu-20.04.3-live-server-amd64.iso
-	(...)
+	ubuntu-20.04.3-live-server-amd64.iso                 100%[=====================================================================================================================>]   1.17G  3.34MB/s    in 5m 1s   
+
+	2021-09-17 13:18:47 (4.00 MB/s) - 'ubuntu-20.04.3-live-server-amd64.iso' saved [1261371392/1261371392]
+
 	jonathan@blackbox:~/CNAM/tp3$
 
 Suivre le tutorial suivant permettant de chiffrer la partition /home avec LUKS: https://doc.ubuntu-fr.org/tutoriel/chiffrer_son_disque
