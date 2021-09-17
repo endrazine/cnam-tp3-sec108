@@ -43,6 +43,12 @@ Créer une partition / avec tout le reste du disque (ext4)
 
 Chiffrer la partition /home avec LUKS
 
+### Pour trouver l'uuid de la partition chifrée à utiliser dans /dev/crypttab:
+
+Utiliser la commande:
+
+	ls -l /dev/disk/by-uuid
+
 ### Installation/Hardening
 
 Suivre le guide d'installation Debian vu en cours, l'adapter aux besoins d'un serveur Ubuntu.
