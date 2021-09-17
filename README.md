@@ -29,13 +29,15 @@ Suivre le tutorial suivant permettant de chiffrer la partition /home avec LUKS: 
 
 ### Partitionning
 
-Créer une partition /tmp séparée (ext4)
+Pour un VM de 10Bb:
 
-Créer une partition /var séparée (ext4)
+Créer une partition /tmp séparée (1Gb/ext4)
 
-Créer une partition /home séparée (ext4)
+Créer une partition /var séparée (1Gb/ext4)
 
-Créer une partition swap séparée (swap)
+Créer une partition /home séparée (2Gb/ext4)
+
+Créer une partition swap séparée (1Gb/swap)
 
 Chiffrer la partition /home avec LUKS
 
