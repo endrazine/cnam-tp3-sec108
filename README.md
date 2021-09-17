@@ -11,6 +11,8 @@ Ces TPs sont notés : prière de m'envoyer vos résultats (captures d'écrans, l
 
 Télécharger l'iso de la version d'Ubuntu 20.04 LTS depuis le site officiel d'Ubuntu.
 
+Suivre le tutorial suivant permettant de chiffrer la partition /home avec LUKS: https://doc.ubuntu-fr.org/tutoriel/chiffrer_son_disque
+
 ### Partitionning
 
 Créer une partition /tmp séparée.
@@ -54,6 +56,12 @@ Modifier la configuration de nginx en editant les fichiers sous /etc/nginx/ afin
 
 Générer des certificats autosignés et les installer pour nginx.
 
+
+### Cracking de passwords avec John the ripper
+
+Céer un utilisateur avec un mot de passe faible.
+
+Utiliser la commande "john" pour tenter de casser ce password faible.
 
 ### Résultats
 
