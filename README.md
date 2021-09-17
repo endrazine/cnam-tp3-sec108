@@ -39,6 +39,8 @@ Créer une partition /home séparée (2Gb/ext4)
 
 Créer une partition swap séparée (1Gb/swap)
 
+Créer une partition / avec tout le reste du disque (ext4)
+
 Chiffrer la partition /home avec LUKS
 
 ### Installation/Hardening
