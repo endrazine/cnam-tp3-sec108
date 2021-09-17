@@ -48,6 +48,13 @@ Chiffrer la partition /home avec LUKS
 Utiliser la commande:
 
 	ls -l /dev/disk/by-uuid
+	
+	
+Dane /etc/fstab, updater le nom de la partition /dev/sda4 par son uuid:
+
+replacer /dev/sda4 par /dev/disk/by-uuid/f20bf465-8640-45d2-a6ab-4d82ed5dbaef (adapter l'uuid en fonction de la commande precedente).
+
+Exemple: https://askubuntu.com/questions/1279912/install-encrypted-ubuntu-server-20-04-on-proxmox
 
 ### Installation/Hardening
 
