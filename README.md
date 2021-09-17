@@ -9,7 +9,19 @@ Ces TPs sont notés : prière de m'envoyer vos résultats (captures d'écrans, l
 
 ## Installation d'un serveur Ubuntu 20.04 LTS version serveur
 
-Télécharger l'iso de la version d'Ubuntu 20.04 LTS depuis le site officiel d'Ubuntu.
+Télécharger l'iso de la version d'Ubuntu 20.04 LTS depuis le site officiel d'Ubuntu:
+
+	jonathan@blackbox:~/CNAM/tp3$ wget https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-live-server-amd64.iso                                                         
+	--2021-09-17 13:13:45--  https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-live-server-amd64.iso
+	Resolving releases.ubuntu.com (releases.ubuntu.com)... 2001:67c:1562::25, 2001:67c:1562::28, 91.189.91.124, ...
+	Connecting to releases.ubuntu.com (releases.ubuntu.com)|2001:67c:1562::25|:443... connected.
+	HTTP request sent, awaiting response... 200 OK
+	Length: 1261371392 (1.2G) [application/x-iso9660-image]
+	Saving to: 'ubuntu-20.04.3-live-server-amd64.iso'
+
+	ubuntu-20.04.3-live-server-amd64.iso
+	(...)
+	jonathan@blackbox:~/CNAM/tp3$
 
 Suivre le tutorial suivant permettant de chiffrer la partition /home avec LUKS: https://doc.ubuntu-fr.org/tutoriel/chiffrer_son_disque
 
