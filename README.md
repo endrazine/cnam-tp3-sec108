@@ -29,6 +29,8 @@ Suivre le tutorial suivant permettant de chiffrer la partition /home avec LUKS: 
 
 Créer une partition /tmp séparée.
 
+Créer une partition /var séparée.
+
 Créer une partition /home séparée
 
 Chiffrer la partition /home avec LUKS
