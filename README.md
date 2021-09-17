@@ -23,6 +23,10 @@ Chiffrer la partition /home avec LUKS
 
 Suivre le guide d'installation Debian vu en cours, l'adapter aux besoins d'un serveur Ubuntu.
 
+### Installer les mises à jour de sécurité automatiques
+
+Confère https://help.ubuntu.com/community/AutomaticSecurityUpdates
+
 ### Modification du umask
 
 Modifier le umask pour tout le systeme.
