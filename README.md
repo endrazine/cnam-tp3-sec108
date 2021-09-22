@@ -82,6 +82,9 @@ Copier la clé publique dans /home/cnam/.ssh/authorized_keys
 
 Modifier le fichier /etc/ssh/sshd_config pour ne permettre l'authentification que via des clés ssh.
 
+Pour permettre d'utiliser sudo en tant qu'utilisateur cnam, se connecter en tant que root, et utiliser la commande suivante pour ajouter l'utilisateur cnam au group sudo:
+
+	~# usermod -aG sudo cnam
 
 ### Installation d'un serveur Nginx
 
@@ -92,6 +95,11 @@ Modifier la configuration de nginx en editant les fichiers sous /etc/nginx/ afin
 Générer des certificats autosignés et les installer pour nginx.
 
 Confère: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-18-04
+
+Pour générer un certificat ssl:
+
+	sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+ 
 
 ### Cracking de passwords avec John the ripper
 
