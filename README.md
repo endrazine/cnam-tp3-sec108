@@ -11,7 +11,7 @@ Ces TPs sont notés : prière de m'envoyer vos résultats (captures d'écrans, l
 
 Télécharger l'iso de la version d'Ubuntu 20.04 LTS depuis le site officiel d'Ubuntu:
 
-	jonathan@blackbox:~/CNAM/tp3$ wget https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-live-server-amd64.iso                                                         
+	jonathan@blackbox:~/CNAM/tp3$ wget https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-live-server-amd64.iso
 	--2021-09-17 13:13:45--  https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-live-server-amd64.iso
 	Resolving releases.ubuntu.com (releases.ubuntu.com)... 2001:67c:1562::25, 2001:67c:1562::28, 91.189.91.124, ...
 	Connecting to releases.ubuntu.com (releases.ubuntu.com)|2001:67c:1562::25|:443... connected.
@@ -19,7 +19,7 @@ Télécharger l'iso de la version d'Ubuntu 20.04 LTS depuis le site officiel d'U
 	Length: 1261371392 (1.2G) [application/x-iso9660-image]
 	Saving to: 'ubuntu-20.04.3-live-server-amd64.iso'
 
-	ubuntu-20.04.3-live-server-amd64.iso                 100%[=====================================================================================================================>]   1.17G  3.34MB/s    in 5m 1s   
+	ubuntu-20.04.3-live-server-amd64.iso                 100%[=====================================================================================================================>]   1.17G  3.34MB/s    in 5m 1s
 
 	2021-09-17 13:18:47 (4.00 MB/s) - 'ubuntu-20.04.3-live-server-amd64.iso' saved [1261371392/1261371392]
 
@@ -43,7 +43,7 @@ Créer une partition / avec tout le reste du disque (ext4)
 
 Chiffrer la partition /home avec LUKS
 
-### Pour trouver l'uuid de la partition chifrée à utiliser dans /dev/crypttab:
+### Pour trouver l'uuid de la partition chifrée à utiliser dans /etc/crypttab:
 
 Utiliser la commande:
 
@@ -91,6 +91,7 @@ Modifier la configuration de nginx en editant les fichiers sous /etc/nginx/ afin
 
 Générer des certificats autosignés et les installer pour nginx.
 
+Confère: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-18-04
 
 ### Cracking de passwords avec John the ripper
 
@@ -100,7 +101,7 @@ Utiliser la commande "john" pour tenter de casser ce password faible.
 
 ### Résultats
 
-Envoyer vos résultats sur mon email du CNAM : jonathan.brossard at lecnam.net
+Envoyer vos résultats (/etc/fstab, /etc/cryptab, /etc/nginx/sites-enabled/*, /etc/ssh/sshd_conf) sur mon email du CNAM : jonathan.brossard at lecnam.net
 
 
 ### J'ai fini plus tôt !
