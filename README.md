@@ -100,6 +100,20 @@ Pour générer un certificat ssl:
 
 	sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
  
+Modifier le fichier /etc/nginx/sites-available/default:
+
+#	listen 80 default_server;
+#	listen [::]:80 default_server;
+
+	# SSL configuration
+	#
+	listen 443 ssl default_server;
+	listen [::]:443 ssl default_server;
+
+	ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
+	ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
+	
+	
 
 ### Cracking de passwords avec John the ripper
 
