@@ -116,7 +116,12 @@ Modifier le fichier /etc/nginx/sites-available/default:
 
 	ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
 	ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
-	
+
+#### Redemarrer nginx
+
+	root@blackbox:/etc/nginx/sites-available# /etc/init.d/nginx restart
+	Restarting nginx (via systemctl): nginx.service.
+	root@blackbox:/etc/nginx/sites-available#
 	
 
 ### Cracking de passwords avec John the ripper
