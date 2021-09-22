@@ -150,7 +150,7 @@ Reference: https://doc.ubuntu-fr.org/fail2ban
 
 ### Résultats
 
-Envoyer vos résultats (/etc/fstab, /etc/cryptab, /etc/nginx/sites-enabled/*, /etc/ssh/sshd_conf) sur mon email du CNAM : jonathan.brossard at lecnam.net
+Envoyer vos résultats (/etc/fstab, /etc/crypttab, /etc/nginx/sites-enabled/*, /etc/ssh/sshd_config) sur mon email du CNAM : jonathan.brossard at lecnam.net
 
 
 ### J'ai fini plus tôt !
