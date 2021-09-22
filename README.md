@@ -136,6 +136,12 @@ Utiliser iptables pour limiter l'acces au port 22 à l'IP du host.
 
 Exemple: https://help.serversaustralia.com.au/s/article/How-To-Whitelist-An-IP-Address-In-IPTables
 
+### Iptables persitantes
+
+Installer iptables-persistent afin de concerver les configurations iptables au redemarrage:
+
+https://doc.ubuntu-fr.org/iptables#via_iptables-persistent
+
 ### Fail2ban
 
 Installer fail2ban pour prémunir la machine contre les scans de ports et attaques abusives.
