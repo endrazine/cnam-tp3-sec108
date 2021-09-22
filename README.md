@@ -102,8 +102,12 @@ Pour générer un certificat ssl:
  
 Modifier le fichier /etc/nginx/sites-available/default:
 
-#	listen 80 default_server;
-#	listen [::]:80 default_server;
+#### Commenter
+
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+#### Ajouter
 
 	# SSL configuration
 	#
