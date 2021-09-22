@@ -99,6 +99,18 @@ Céer un utilisateur avec un mot de passe faible.
 
 Utiliser la commande "john" pour tenter de casser ce password faible.
 
+### Filtrage IP tables
+
+Utiliser iptables pour limiter l'acces au port 22 à l'IP du host.
+
+Exemple: https://help.serversaustralia.com.au/s/article/How-To-Whitelist-An-IP-Address-In-IPTables
+
+### Fail2ban
+
+Installer fail2ban pour prémunir la machine contre les scans de ports et attaques abusives.
+
+Reference: https://doc.ubuntu-fr.org/fail2ban
+
 ### Résultats
 
 Envoyer vos résultats (/etc/fstab, /etc/cryptab, /etc/nginx/sites-enabled/*, /etc/ssh/sshd_conf) sur mon email du CNAM : jonathan.brossard at lecnam.net
